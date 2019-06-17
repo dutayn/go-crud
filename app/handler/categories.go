@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"crud-product/app/model"
+	"go-crud/app/model"
 
 	"github.com/gorilla/mux"
 	"github.com/jinzhu/gorm"

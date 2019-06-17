@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"crud-product/app/model"
+	"go-crud/app/model"
 
 	"github.com/gorilla/mux"
 	"github.com/jinzhu/gorm"
