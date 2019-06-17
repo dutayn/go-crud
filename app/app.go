@@ -5,9 +5,9 @@ import (
 	"log"
 	"net/http"
 
-	"crud-product/app/handler"
-	"crud-product/app/model"
-	"crud-product/config"
+	"go-crud/app/handler"
+	"go-crud/app/model"
+	"go-crud/config"
 
 	"github.com/gorilla/mux"
 	"github.com/jinzhu/gorm"
