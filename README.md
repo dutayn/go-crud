@@ -26,7 +26,7 @@ go run main.go
 * `POST` : Create a new categories
 
 ```bash
-* `Contoh GET`
+* Contoh GET
 [
     {
         "ID": 1,
@@ -39,7 +39,7 @@ go run main.go
     }
 ] 
 
-* `Contoh POST`
+* Contoh POST
 {
 	"name" : "Elektronik",
 	"enable" : true
@@ -57,7 +57,7 @@ go run main.go
 * `POST` : Create a new product in a categories
 
 ```bash
-* `Contoh GET Product` `http://localhost:3000/categories/elektronik/product`
+* Contoh GET Product - http://localhost:3000/categories/elektronik/product
 [
     {
         "ID": 1,
@@ -73,7 +73,7 @@ go run main.go
 ]
 
 
-* `Contoh POST Product` `http://localhost:3000/categories/elektronik/product`
+* Contoh POST Product - http://localhost:3000/categories/elektronik/product
 {
 	"name" : "Laptop",
 	"description" : "Merk DELL Latitude e7240",
@@ -93,7 +93,7 @@ go run main.go
 * `DELETE` : Delete a images of a products - categories
 
 ```bash
-* `Contoh GET Image` `http://localhost:3000/categories/elektronik/product/laptop/images`
+* Contoh GET Image - http://localhost:3000/categories/elektronik/product/laptop/images
 [
     {
         "ID": 1,
@@ -107,7 +107,7 @@ go run main.go
     }
 ]
 
-* `Contoh POST Image` `http://localhost:3000/categories/elektronik/product/laptop/images`
+* Contoh POST Image - http://localhost:3000/categories/elektronik/product/laptop/images
 {
 	"name" : "Image-laptop",
 	"file" : "Latitude-e7240.jpg",
