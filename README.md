@@ -5,7 +5,7 @@ RESTful API menggunakan framework **gorilla/mux**, **gorm** (An ORM for Go) & **
 ## Install dan Menjalankannya
 ```bash
 # Download project
-go get github.com/dutayn/go-crud
+git clone https://github.com/dutayn/go-crud.git
 ```
 
 Sebelum menjalankan server API, lakukan konfigurasi database terlebih dahulu -  [config.go](https://github.com/dutayn/go-crud/blob/master/config/config.go)
